@@ -69,7 +69,7 @@ body {
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 4.5vw; 
+    font-size: 4.3vw; 
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
@@ -99,5 +99,15 @@ body {
 .category-tile h3 {
 	font-size: 1.5em;
 	margin-top: 0;
+}
+
+/********** Super extra small devices (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 4.4vw;
+  }
+
 }
 
