@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #000;
   background-color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 /** HEADER **/
@@ -91,29 +91,39 @@ body {
   }
 
   /* End Header */
+
 }
 
 /* END HEADER */
 
 /* HOME PAGE */
 
-#home-title {
-	margin-top: -15px;
+#main-content h2 {
+	margin-top: 0px;
 	margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .category-tile {
 	border: 2px solid #3F0C1F;
+  /*height: 200px;*/
 	overflow: wrap;
 	margin: 0 auto 15px;
 	background-color: #FFF;
-  height: 500px;
+  background-color: #f4f4f4;
+  font-size: 1.2em;
 }
 
 .category-tile h3 {
 	font-size: 1.5em;
-	margin-top: 0;
+	margin-top: 10px;
+  font-weight: bold;
 }
+
+.sublist {
+  font-size: .9em;
+}
+
 
 /********** Super extra small devices (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
