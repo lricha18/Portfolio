@@ -7,10 +7,18 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background-color: #4286f4;
+  background-image: linear-gradient(120deg, #541ee8, #4286f4);
   border-radius: 0;
   border: 0;
+}
+
+#logo-img {
+  background: url('../images/me.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+  background-size: cover;
 }
 
 .navbar-brand {
@@ -34,12 +42,19 @@ body {
   text-decoration: none;
 }
 
+.navbar-brand p { /* Page reacts with different sizes */
+  color: #f2eaf7;
+  font-family: 'Rammetto One', cursive;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
 #nav-list a {
   color: #f2eaf7;
   text-align: center;
   font-size: 1.2em;
 }
-#nav-list a:hover {
+#nav-list a:hover{
   background: #E7E7E7;
   color: #000;
 }
@@ -51,7 +66,6 @@ body {
 .navbar-header button.navbar-toggle:hover {
   border: 1px solid #000;
 }
-
 
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -83,7 +97,7 @@ body {
 
 /* HOME PAGE */
 
-#menu-title {
+#home-title {
 	margin-top: -15px;
 	margin-bottom: 25px;
 }
@@ -93,7 +107,7 @@ body {
 	overflow: wrap;
 	margin: 0 auto 15px;
 	background-color: #FFF;
-  height: 1000px;
+  height: 500px;
 }
 
 .category-tile h3 {
@@ -104,8 +118,8 @@ body {
 /********** Super extra small devices (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
+  .navbar-brand h1 { /* Title of Page */
+    padding-top: 20px;
     font-size: 4vw;
   }
 
