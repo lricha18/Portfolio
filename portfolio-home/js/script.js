@@ -9,11 +9,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 
 
-  $('#popover').popover();
+$('#popover').popover();
 
-  $('.popover-dismiss').popover({
+$('.popover-dismiss').popover({
   trigger: 'click'
 })
+
+$(function(){
+  $('.category-tile').matchHeight();
+});
 
 
 

@@ -8,7 +8,7 @@ body {
 /** HEADER **/
 #header-nav {
   background-color: #4286f4;
-  background-image: linear-gradient(120deg, #541ee8, #4286f4);
+  background-image: linear-gradient(120deg, #0752bc, #4286f4);
   border-radius: 0;
   border: 0;
 }
@@ -83,6 +83,32 @@ body {
   clear: both;
   margin-top: -30px;
 }
+/* End Header */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#uses-title {
+  color: #FFF;
+  line-height: 2;
+}
+#uses-title > span{
+  font-size: 1.3em;
+}
+#uses-title p {
+  color: #FFF;
+  font-size: .9em;
+  line-height: 1.8;
+}
+/* END FOOTER */
 
 
 /********** Large devices only **********/
@@ -120,6 +146,27 @@ body {
 
   /* End Header */
 
+  /* Main Content */
+
+  .category-tile {
+    height: auto !important; /* Heights don't need to match when tiles are stacked on x-small screens */
+  }
+
+  /* End Main Content */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
 }
 
 /* END HEADER */
@@ -148,6 +195,15 @@ body {
   font-weight: bold;
 }
 
+.category-tile h4 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+/* End Header */
+
+
+
 
 
 /********** Super extra small devices (e.g., iPhone 4) **********/
@@ -159,4 +215,3 @@ body {
   }
 
 }
-
