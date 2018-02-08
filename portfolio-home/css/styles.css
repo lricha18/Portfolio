@@ -49,6 +49,18 @@ body {
   margin-top: 15px;
 }
 
+.popover-title {
+  font-family: 'Rammetto One', cursive;
+  background-color: #f0ad4e;
+  color: #fff;
+  font-size: 16px;
+}
+
+.popover-content {
+  background-color: #2966bc;
+  color: #fff;
+}
+
 #nav-list a {
   color: #f2eaf7;
   text-align: center;
@@ -70,6 +82,22 @@ body {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
 }
 
 
@@ -106,8 +134,8 @@ body {
 
 .category-tile {
 	border: 2px solid #3F0C1F;
-  /*height: 250px;*/
-	overflow: wrap;
+  /*overflow: auto;*/
+  /*height: 100%;*/
 	margin: 0 auto 15px;
 	background-color: #FFF;
   background-color: #f4f4f4;
@@ -120,9 +148,6 @@ body {
   font-weight: bold;
 }
 
-.sublist {
-  font-size: .9em;
-}
 
 
 /********** Super extra small devices (e.g., iPhone 4) **********/

@@ -8,6 +8,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     }
   });
 
+
+  $('#popover').popover();
+
+  $('.popover-dismiss').popover({
+  trigger: 'click'
+})
+
+
+
   // In Firefox and Safari, the click event doesn't retain the focus
   // on the clicked button. Therefore, the blur event will not fire on
   // user clicking somewhere else in the page and the blur event handler
