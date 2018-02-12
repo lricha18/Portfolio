@@ -12,7 +12,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 $('#popover').popover();
 
 $('.popover-dismiss').popover({
-  trigger: 'click'
+  trigger: 'focus'
 })
 
 $(function(){
