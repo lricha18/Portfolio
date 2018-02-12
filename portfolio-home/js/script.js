@@ -19,6 +19,8 @@ $(function(){
   $('.category-tile').matchHeight();
 });
 
+$('.carousel').carousel();
+
 
 
   // In Firefox and Safari, the click event doesn't retain the focus
